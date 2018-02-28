@@ -9,12 +9,27 @@
 </head>
 <body>
     <div class="hexrow" style="margin-top: 50px;">
-        <div>
-            <span>B1</span>
+        <div id="B1" style="background-image: url(images/blank.jpg);">
+            <!-- <span>B1</span> -->
+            <select>
+                <option value="dessert">Dessert</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
             <div></div>
             <div></div>
         </div>
-        <div>
+        <div id="A1" style="background-image: url(images/blank.jpg);">
             <span>A1</span>
             <div></div>
             <div></div>
@@ -42,12 +57,12 @@
     </div>
     
     <div class="hexrow">
-        <div id="changeBackground" style="border-top: 3px green solid;">
+        <div id="D1" style="background-image: url(images/blank.jpg);">
             <span>D1</span>
-            <div style="border-top: 3px red solid;"></div>
+            <div></div>
             <div></div>
         </div>
-        <div>
+        <div id="C1" style="background-image: url(images/blank.jpg);">
             <span>C1</span>
             <div></div>
             <div></div>
@@ -107,9 +122,19 @@
         </div>
     </div>
 
-    <div id="gamePiecesBox"></div>
+    <div id="gamePiecesBox">
+
+        <div id="blueSettlement1"></div>
+
+        <div id="blueSettlement2"></div>
+
+        <div id="blueSettlement3"></div>
+
+
+    </div>
 
     <script src="gamePieces.js"></script>
+    <script src="changeResource.js"></script>
 
 
 </body>
