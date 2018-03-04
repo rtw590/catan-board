@@ -172,6 +172,72 @@ thief.style.position = "absolute";
 thief.style.left = "1515px";
 thief.style.top = "855px";
 
+var thief = document.getElementById('wood_port_1');
+
+wood_port_1.style.position = "absolute";
+wood_port_1.style.left = "1515px";
+wood_port_1.style.top = "1005px";
+
+var thief = document.getElementById('sheep_port_1');
+
+sheep_port_1.style.position = "absolute";
+sheep_port_1.style.left = "1655px";
+sheep_port_1.style.top = "800px";
+
+var thief = document.getElementById('sheep_port_2');
+
+sheep_port_2.style.position = "absolute";
+sheep_port_2.style.left = "1655px";
+sheep_port_2.style.top = "925px";
+
+var thief = document.getElementById('wheat_port_1');
+
+wheat_port_1.style.position = "absolute";
+wheat_port_1.style.left = "1655px";
+wheat_port_1.style.top = "675px";
+
+var thief = document.getElementById('ore_port_1');
+
+ore_port_1.style.position = "absolute";
+ore_port_1.style.left = "1655px";
+ore_port_1.style.top = "550px";
+
+var thief = document.getElementById('brick_port_1');
+
+brick_port_1.style.position = "absolute";
+brick_port_1.style.left = "1655px";
+brick_port_1.style.top = "425px";
+
+var thief = document.getElementById('three_to_one_port_1');
+
+three_to_one_port_1.style.position = "absolute";
+three_to_one_port_1.style.left = "1800px";
+three_to_one_port_1.style.top = "425px";
+
+var thief = document.getElementById('three_to_one_port_2');
+
+three_to_one_port_2.style.position = "absolute";
+three_to_one_port_2.style.left = "1800px";
+three_to_one_port_2.style.top = "550px";
+
+var thief = document.getElementById('three_to_one_port_3');
+
+three_to_one_port_3.style.position = "absolute";
+three_to_one_port_3.style.left = "1800px";
+three_to_one_port_3.style.top = "675px";
+
+var thief = document.getElementById('three_to_one_port_4');
+
+three_to_one_port_4.style.position = "absolute";
+three_to_one_port_4.style.left = "1800px";
+three_to_one_port_4.style.top = "800px";
+
+var thief = document.getElementById('three_to_one_port_5');
+
+three_to_one_port_5.style.position = "absolute";
+three_to_one_port_5.style.left = "1800px";
+three_to_one_port_5.style.top = "925px";
+
 
 
 // All pieces that need to be moved need to be added here
@@ -206,3 +272,15 @@ dragElement(document.getElementById(("Twelve_1")));
 dragElement(document.getElementById(("Twelve_2")));
 
 dragElement(document.getElementById(("thief")));
+
+dragElement(document.getElementById(("wood_port_1")));
+dragElement(document.getElementById(("sheep_port_1")));
+dragElement(document.getElementById(("sheep_port_2")));
+dragElement(document.getElementById(("wheat_port_1")));
+dragElement(document.getElementById(("ore_port_1")));
+dragElement(document.getElementById(("brick_port_1")));
+dragElement(document.getElementById(("three_to_one_port_1")));
+dragElement(document.getElementById(("three_to_one_port_2")));
+dragElement(document.getElementById(("three_to_one_port_3")));
+dragElement(document.getElementById(("three_to_one_port_4")));
+dragElement(document.getElementById(("three_to_one_port_5")));
